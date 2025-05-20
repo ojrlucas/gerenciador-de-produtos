@@ -19,5 +19,29 @@ Este é um projeto de console feito em Java com persistência de dados em MySQL 
 - Verificação de existência de produto por ID
 - Tratamento de exceções e validações simples
 
-## 💡 Estrutura do Projeto
+## 📁 Estrutura de Diretórios
 
+```
+projeto-cadastro-produtos/
+│
+├── src/
+│   ├── aplicacao/
+│   │   └── Aplicacao.java
+│   │
+│   ├── daos/
+│   │   └── DaoProduto.java
+│   │
+│   ├── entidades/
+│   │   └── Produto.java
+│   │
+│   ├── interfaces/
+│   │   └── ICrud.java
+│   │
+│   └── util/
+│       └── Conexao.java
+│
+├── banco/
+│   └── script_ddl.sql
+│
+└── README.md
+```
