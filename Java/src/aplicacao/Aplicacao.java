@@ -17,7 +17,7 @@ public class Aplicacao {
 
 	    while (true) {
 	        try {
-	            System.out.println("1 - Consultar | 2 - Adicionar | 3 - Alterar | 4 - Remover | 5 - Resetar Lista | 0 - Sair");
+	            System.out.println("1 - Consultar | 2 - Adicionar | 3 - Alterar | 4 - Remover | 0 - Sair");
 	            System.out.print("Informe a opção: ");
 	            int opcao = sc.nextInt();
 	            sc.nextLine();
@@ -34,9 +34,6 @@ public class Aplicacao {
 	                    break;
 	                case 4:
 	                    removerProdutos(sc, dao);
-	                    break;
-	                case 5:
-	                    dao.resetarLista();
 	                    break;
 	                case 0:
 	                    System.out.println("Saindo...");
