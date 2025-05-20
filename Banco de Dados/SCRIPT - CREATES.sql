@@ -1,0 +1,8 @@
+CREATE DATABASE db_conexao;
+
+CREATE TABLE tb_produtos (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    descricao VARCHAR(50) NOT NULL,
+    preco DECIMAL(8,2) NOT NULL,
+    estoque DECIMAL(8,2) NOT NULL
+);
